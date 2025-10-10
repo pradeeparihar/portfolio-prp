@@ -1,10 +1,10 @@
 import './Navbar.css'
-// import logo from '../../assets/logo.svg'
+import logo from '../../assets/google-logo-svg.svg'
 
 const Navbar = () => {
   return (
     <div className='navbar'>
-        <img src={'logo'} alt='' />
+        <img src={logo} alt='' />
         <ul className="nav-menu">
             <li>Home</li>
             <li>About</li>
