@@ -35,7 +35,7 @@
 
 .about-left img {
     width: 263px;
-    height: 150px
+    border-radius: 30px;
 }
 
 .about-right {
@@ -62,7 +62,7 @@
     display: flex;
     gap: 50px;
     align-items: center;
-    transition: 0.3s;
+    transition: 0.5s;
 }
 
 

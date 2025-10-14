@@ -7,22 +7,32 @@ const Experiences = () => {
         {
             e_no: '01',
             e_title: 'Title - 01',
-            e_desc: 'Description - 01'
+            e_desc: 'I am a frontend developer from Mumbai, India having...'
         },
         {
             e_no: '02',
             e_title: 'Title - 02',
-            e_desc: 'Description - 02'
+            e_desc: 'I am a frontend developer from Mumbai, India having...'
         },
         {
             e_no: '03',
             e_title: 'Title - 03',
-            e_desc: 'Description - 03'
+            e_desc: 'I am a frontend developer from Mumbai, India having...'
         },
         {
             e_no: '04',
             e_title: 'Title - 04',
-            e_desc: 'Description - 04'
+            e_desc: 'I am a frontend developer from Mumbai, India having...'
+        },
+        {
+            e_no: '05',
+            e_title: 'Title - 05',
+            e_desc: 'I am a frontend developer from Mumbai, India having...'
+        },
+        {
+            e_no: '06',
+            e_title: 'Title - 06',
+            e_desc: 'I am a frontend developer from Mumbai, India having...'
         }
     ]
   return (
