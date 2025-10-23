@@ -17,6 +17,18 @@ display: flex;
     font-size: 20px;
 }
 
+.nav-menu li{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.nav-menu li img{
+    display: flex;
+    margin: auto;
+}
+
 .nav-connect{
     padding: 20px 40px;
     border-radius: 50px;
@@ -28,4 +40,9 @@ display: flex;
 
 .nav-connect:hover{
     transform: scale(1.05);
+}
+
+.anchor-link {
+    text-decoration: none;
+    color: white;
 }

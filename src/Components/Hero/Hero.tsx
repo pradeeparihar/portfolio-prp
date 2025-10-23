@@ -3,7 +3,7 @@ import portfoli_img from "../../assets/profile-picture.svg";
 
 const Hero = () => {
   return (
-    <div className="hero">
+    <div id="Home" className="hero">
       <img src={portfoli_img} alt="" />
       <h1><span>I'm Pradeep Parihar,</span> frontend developer based on Mumbai, India.</h1>
       <p>

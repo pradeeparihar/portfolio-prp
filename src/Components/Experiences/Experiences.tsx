@@ -36,7 +36,7 @@ const Experiences = () => {
         }
     ]
   return (
-    <div className='experiences'>
+    <div id='Experience' className='experiences'>
         <div className="experiences-title">
             <h1>My Experiences</h1>
             <img src={theme_pattern} alt="" />
