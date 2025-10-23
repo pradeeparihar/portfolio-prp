@@ -1,5 +1,6 @@
 import "./hero.css";
 import portfoli_img from "../../assets/profile-picture.svg";
+import AnchorLink from "react-anchor-link-smooth-scroll";
 
 const Hero = () => {
   return (
@@ -13,7 +14,7 @@ const Hero = () => {
       </p>
       <div className="hero-action">
         <div className="hero-connect">
-            Connect With Me
+            <AnchorLink className='anchor-link' href='#Contact'>Connect With Me</AnchorLink>
         </div>
         <div className="hero-resume">
             Download My Resume
