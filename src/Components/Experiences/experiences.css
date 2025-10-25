@@ -77,3 +77,45 @@
     align-items: center;
     margin-top: 20px;
 }
+
+@media (max-width:768px) {
+    .experiences {
+        align-items: start;
+        gap: 70px;
+        margin: 20px 70px;
+    }
+
+    .experiences-title h1 {
+        padding: 0;
+        font-size: 50px;
+    }
+
+    .experiences-title img {
+        width: 130px;
+        margin-right: -20px;
+    }
+
+    .experience-format {
+        gap: 20px;
+        padding: 32px;
+    }
+
+    .experience-format h2 {
+        font-size: 20px;
+    }
+
+    .experience-format p {
+        font-size: 18px;
+        line-height: 32px;
+        max-width: 300px;
+    }
+
+    .experience-readmore img {
+        width: 20px;
+    }
+
+    .experiences-container {
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+    }
+}
