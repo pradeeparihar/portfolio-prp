@@ -1,5 +1,5 @@
 import './navbar.css'
-import logo from '../../assets/google-logo-svg.svg'
+import logo from '../../assets/logo.png'
 import { useRef, useState } from 'react'
 import underline from '../../assets/nav_underline.svg'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
@@ -25,7 +25,7 @@ const menuRef = useRef<HTMLUListElement | null>(null);
 
   return (
     <div className='navbar'>
-        <img src={logo} alt='' />
+        <span className='nav-logo-container'><p>प्र</p><img src={logo} alt='' /></span>
         <img src={menu_open} alt="" onClick={openMenu} className='nav-mob-open'/>
         <ul ref={menuRef} className="nav-menu">
           <img src={menu_close} alt="" onClick={closeMenu} className="nav-mob-close" />

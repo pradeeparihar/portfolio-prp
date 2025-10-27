@@ -5,8 +5,23 @@
     margin: 20px 170px;
 }
 
-.navbar img {
-    width: 38px;
+.nav-logo-container {
+    display: flex;
+    gap: 10px;
+}
+
+.nav-logo-container p {
+    font-size: 50px;
+    background: linear-gradient(270deg, #df0871 10%, #ffaa15 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.nav-logo-container img {
+    margin-top: 15px;
+    width: 40px;
+    height: 40px;
 }
 
 .nav-menu{

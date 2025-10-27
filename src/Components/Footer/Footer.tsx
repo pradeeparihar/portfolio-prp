@@ -1,5 +1,5 @@
 import './footer.css';
-import google_logo from '../../assets/google-logo-svg.svg'
+import logo from '../../assets/logo.png'
 import user_icon from '../../assets/user_icon.svg'
 
 const Footer = () => {
@@ -7,7 +7,7 @@ const Footer = () => {
     <div className='footer'>
         <div className="footer-top">
             <div className="footer-top-left">
-                <img src={google_logo} alt="" />
+                <span className='footer-logo-container'><p>प्र</p><img src={logo} alt='' /></span>
                 <p>I am a frontend developer from Mumbai, India having 4+ years of
               experience in multiple domains like Logistics, EdTech, Community
               App and Share Broker's App.</p>
