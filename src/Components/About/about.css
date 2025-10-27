@@ -18,6 +18,7 @@
 }
 
 .about-title img {
+    width: 260px;
     position: absolute;
     bottom: 0;
     right: 0;

@@ -1,7 +1,7 @@
 import './myProjects.css'
-import theme_pattern from '../../assets/theme_pattern.svg'
+import theme_pattern from '../../assets/nav_underline.png'
 
-import project_1 from '../../assets/project_1.svg'
+import project_1 from '../../assets/project_1.jpg'
 import project_2 from '../../assets/project_2.svg'
 import project_3 from '../../assets/project_3.svg'
 import project_4 from '../../assets/project_4.svg'

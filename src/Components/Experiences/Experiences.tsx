@@ -1,5 +1,5 @@
 import './experiences.css';
-import theme_pattern from '../../assets/theme_pattern.svg';
+import theme_pattern from '../../assets/nav_underline.png';
 import arrow_icon from '../../assets/arrow_icon.svg';
 
 const Experiences = () => {

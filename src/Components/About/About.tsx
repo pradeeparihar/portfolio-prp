@@ -1,5 +1,5 @@
 import "./about.css";
-import theme_pattern from "../../assets/theme_pattern.svg";
+import theme_pattern from "../../assets/nav_underline.png";
 import portfoli_img from "../../assets/profile-picture.svg";
 
 const About = () => {
