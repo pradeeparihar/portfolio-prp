@@ -8,7 +8,7 @@ import menu_close from '../../assets/menu_close.svg'
 
 const Navbar = () => {
 
-  const [menu, setMenu] = useState("About");
+  const [menu, setMenu] = useState("Home");
 const menuRef = useRef<HTMLUListElement | null>(null);
 
   const openMenu = () => {
