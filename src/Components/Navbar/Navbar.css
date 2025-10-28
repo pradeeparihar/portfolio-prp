@@ -48,7 +48,7 @@ display: flex;
 .nav-connect{
     padding: 20px 40px;
     border-radius: 50px;
-    background: linear-gradient(267deg, #DA7C25 0.36%, #8923E1 102.06%);
+    background: linear-gradient(270deg, #4a20d8 10%, #78dd57 100%);
     font-size: 22px;
     cursor: pointer;
     transition: 0.5s;

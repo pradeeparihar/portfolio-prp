@@ -41,7 +41,7 @@
 
 .myprojects-container img:hover {
     transform: scale(1.05);
-    border: 4px solid white;
+    border: 4px solid #07ed1a;
     border-radius: 10px;
     transition: 0.3s;
 }
