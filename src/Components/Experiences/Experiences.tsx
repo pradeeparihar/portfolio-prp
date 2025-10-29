@@ -5,34 +5,24 @@ import arrow_icon from '../../assets/arrow_icon.svg';
 const Experiences = () => {
     const expData = [
         {
-            e_no: '01',
-            e_title: 'Title - 01',
-            e_desc: 'I am a frontend developer from Mumbai, India having...'
+            e_title: 'Logistics',
+            e_desc: 'Modules like Admin, User Management, Purchase, Consmption, Survey...'
         },
         {
-            e_no: '02',
-            e_title: 'Title - 02',
-            e_desc: 'I am a frontend developer from Mumbai, India having...'
+            e_title: 'EdTech',
+            e_desc: 'Modules like Admin, Lectures, Assignment, Online Test, Attendance...'
         },
         {
-            e_no: '03',
-            e_title: 'Title - 03',
-            e_desc: 'I am a frontend developer from Mumbai, India having...'
+            e_title: 'Life Insurance',
+            e_desc: 'Modules like OCR Integration (Docs scanning), FC Scrutiny, Training...'
         },
         {
-            e_no: '04',
-            e_title: 'Title - 04',
-            e_desc: 'I am a frontend developer from Mumbai, India having...'
+            e_title: 'Community',
+            e_desc: 'Modules like Quiz Comptetion - with Video Call, Live Chat...'
         },
         {
-            e_no: '05',
-            e_title: 'Title - 05',
-            e_desc: 'I am a frontend developer from Mumbai, India having...'
-        },
-        {
-            e_no: '06',
-            e_title: 'Title - 06',
-            e_desc: 'I am a frontend developer from Mumbai, India having...'
+            e_title: `Broker's App`,
+            e_desc: 'Module like Login (Multiple Ways), Positions, Portfolio, MF - Transactions...,'
         }
     ]
   return (
@@ -44,7 +34,6 @@ const Experiences = () => {
         <div className="experiences-container">
             {expData.map((exp, index) => {
                 return <div key={index} className='experience-format'>
-                    <h3>{exp.e_no}</h3>
                     <h2>{exp.e_title}</h2>
                     <p>{exp.e_desc}</p>
                     <div className="experience-readmore">

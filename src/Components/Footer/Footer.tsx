@@ -10,7 +10,7 @@ const Footer = () => {
                 <span className='footer-logo-container'><p>प्र</p><img src={logo} alt='' /></span>
                 <p>I am a frontend developer from Mumbai, India having 4+ years of
               experience in multiple domains like Logistics, EdTech, Community
-              App and Share Broker's App.</p>
+              App and BFSI App.</p>
             </div>
             <div className="footer-top-right">
                 <div className="footer-email-input">

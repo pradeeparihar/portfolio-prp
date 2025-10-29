@@ -10,7 +10,7 @@ const Hero = () => {
       <p>
         I am a frontend developer from Mumbai, India having 4+  years of
         experience in multiple domains like Logistics, EdTech, Community App and
-        Share Broker's App.
+        BFSI App.
       </p>
       <div className="hero-action">
         <div className="hero-connect">

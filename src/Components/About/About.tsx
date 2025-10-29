@@ -18,7 +18,7 @@ const About = () => {
             <p>
               I am a frontend developer from Mumbai, India having 4+ years of
               experience in multiple domains like Logistics, EdTech, Community
-              App and Share Broker's App.
+              App and BFSI App.
             </p>
           </div>
           <div className="about-skills">
