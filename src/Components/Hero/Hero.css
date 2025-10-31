@@ -65,6 +65,9 @@
     color: #B415FF;
 }
 
+
+
+
 @media (max-width: 768px) {
     .hero img {
         margin-top: 120px;
@@ -99,3 +102,28 @@
     }
 
 }
+@media (max-width: 480px) {
+    .hero img {
+        margin-top: 75px;
+        width: 180px;
+    }
+
+    .hero h1 {
+        font-size: 20px;
+    }
+
+    .hero p {
+        font-size: 15px;
+        line-height: 28px;
+        margin: 5px 0px;
+    }
+    .hero-action {
+        font-size: 11px;
+    }
+    .hero-connect {
+        padding: 10px 15px;
+    }
+    .hero-resume {
+        padding: 10px 15px;
+    }
+}   /* Small phones */
