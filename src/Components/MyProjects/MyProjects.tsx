@@ -37,11 +37,6 @@ const MyProjects = () => {
       p_no: '05',
       p_name: 'Project - 05',
       p_img: more_to_come
-    },
-    {
-      p_no: '06',
-      p_name: 'Project - 06',
-      p_img: more_to_come
     }
   ]
 
@@ -59,7 +54,7 @@ const MyProjects = () => {
         <img src={theme_pattern} alt="" />
       </div>
 
-      <div className="myprojects-container">
+      {/* <div className="myprojects-container">
         {myProjectsData.map((proj, index) => (
           <img
             key={index}
@@ -69,7 +64,18 @@ const MyProjects = () => {
             onClick={() => handleProjectClick(proj)}
           />
         ))}
-      </div>
+      </div> */}
+      <div className="myprojects-container">
+      {myProjectsData.map((proj, index) => (
+        <div
+          key={index}
+          className="project-card"
+          onClick={() => handleProjectClick(proj)}
+        >
+          <img src={proj.p_img} alt={proj.p_name} className="project-image" />
+        </div>
+      ))}
+    </div>
 
       <div className="myprojects-showmore">
         <p>Show More</p>

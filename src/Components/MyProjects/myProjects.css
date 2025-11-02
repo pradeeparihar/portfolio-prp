@@ -1,102 +1,119 @@
 .myprojects {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 80px;
-    margin: 80px 170px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+  margin: 80px 170px;
 }
 
 .myprojects-title {
-    position: relative;
+  position: relative;
 }
 
 .myprojects-title h1{
     padding: 0px 30px;
-    font-size: 80px;
-    font-weight: 600;
+  font-size: 80px;
+  font-weight: 600;
 }
 
 .myprojects-title img{
-    width: 360px;
-    position: absolute;
-    bottom: -10px;
-    right: 0;
-    z-index: -1;
+  width: 360px;
+  position: absolute;
+  bottom: -10px;
+  right: 0;
+  z-index: -1;
 }
 
+/* Container similar to experiences-container */
 .myprojects-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  margin-bottom: 80px;
 }
 
-.myprojects-container img {
-    box-sizing: border-box;
-    width: 419px;
-    height: 280px;
-    transition: 0.3s;
-    cursor: pointer;
+.myprojects-container > * {
+  flex: 1 1 calc(33.333% - 40px);
+  max-width: 420px;
 }
 
-.myprojects-container img:hover {
-    transform: scale(1.05);
-    border: 4px solid #07ed1a;
-    border-radius: 10px;
-    transition: 0.3s;
-    cursor: pointer;
+/* Individual project card (same style as experience-format) */
+.project-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 10px;
+  border: 2px solid white;
+  transition: 0.4s;
+  cursor: pointer;
 }
 
+.project-card:hover {
+  border: 2px solid #07ed1a;
+  background-image: linear-gradient(45deg, #021b04, #083604);
+  transform: scale(1.05);
+  transition: 0.4s;
+}
+
+.project-card img {
+  border-radius: 10px;
+  height: -webkit-fill-available
+}
+
+/* Read more / show more styling */
 .myprojects-showmore {
-    display: flex;
-    gap: 15px;
-    border-radius: 50px;
-    border: 2px solid white;
-    padding: 30px 60px;
-    font-size: 22px;
-    font-weight: 500;
-    margin-bottom: 80px;
-    transition: 0.6s;
-    cursor: pointer;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  border-radius: 50px;
+  border: 2px solid white;
+  padding: 30px 60px;
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 80px;
+  transition: 0.6s;
+  cursor: pointer;
 }
 
 .myprojects-showmore:hover {
-    gap: 25px;
-    transition: 0.6s;
+  gap: 25px;
+  transition: 0.6s;
 }
 
 @media (max-width: 768px) {
-    .myprojects {
-        gap: 50px;
-        margin: 50px 70px;
-        align-items: start;
-    }
+  .myprojects {
+    align-items: start;
+    gap: 70px;
+    margin: 20px 70px;
+  }
 
-    .myprojects-title h1 {
-        padding: 0;
-        font-size: 50px;
-        font-weight: 600;
-    }
+  .myprojects-title h1 {
+    padding: 0;
+    font-size: 50px;
+  }
 
-    .myprojects-title img {
-        width: 130px;
-        margin-right: -20px;
-    }
+  .myprojects-title img {
+    width: 130px;
+    margin-right: -20px;
+  }
 
-    .myprojects-container {
-        grid-template-columns: 1fr 1fr;
-        gap: 30px;
-    }
+  .myprojects-container {
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 0px;
+  }
 
-    .myprojects-container img {
-        width: 100%;
-        height: 100%;
-    }
+  .myprojects-container > * {
+    flex: 1 1 calc(33.333% - 40px);
+    max-width: 240px;
+  }
 
-    .myprojects-showmore {
-        padding: 20px 40px;
-        font-size: 18px;
-        margin: 50px auto;
-        cursor: pointer;
-    }
+  .myprojects-showmore {
+    padding: 20px 40px;
+    font-size: 18px;
+    margin: 0px auto;
+    cursor: pointer;
+  }
 }
