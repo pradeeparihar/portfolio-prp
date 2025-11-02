@@ -108,5 +108,19 @@
         display: flex;
         flex-direction: column;
         margin-bottom: 50px;
+        font-size: 12px;
+        gap: 15px;
+    }
+
+    .footer-bottom-right {
+        justify-content: space-around;
+    }
+
+    .footer-top-right {
+        flex-direction: column;
+    }
+
+    .footer-email-input {
+        width: 200px;
     }
 }
